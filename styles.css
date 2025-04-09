@@ -1,3 +1,10 @@
+:root {
+    --main-branding-color: #FFFFFF;
+    --main-font: "Playfair Display", serif;
+    --secondary-font: "Poppins", sans-serif;
+    --main-font-color: black;
+    --button-color: #6C63FE;
+}
 .playfair-display {
   font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
@@ -14,4 +21,28 @@
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-style: normal;
+}
+
+h1, h2, p, btn {
+    text-align: center;
+    font-family: var(--secondary-font);
+    color: var(--main-font-color);
+}
+h1 {
+    font-family: var(--main-font);
+}
+.hero {
+    background-color: #F9F7FE;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-branding {
+    background-color: var(--button-color);
+    color: white;
+    padding: 15px 32px; /* Some padding */
+    text-decoration: none; /* Remove underline */
+    border-radius: 4px;
+    font-family: var(--secondary-font);
+
 }
